@@ -40,18 +40,10 @@ export class Dashboard extends Component {
 
     static getDerivedStateFromProps ( nextProps, nextState ){
         console.log( nextProps.database.newLeads );
-        if( Object.keys( nextProps.database.newLeads ).length !== 0  && nextProps.database.newLeads !== nextState.newLeads){
+        if(  nextProps.database.newLeads !== nextState.newLeads || nextProps.database.qualifiedLeads !== nextState.qualifiedLeads || nextProps.database.contactedLeads !== nextState.contactLeads){
             return {
-                newLeads : nextProps.database.newLeads
-            }
-        }
-        if( Object.keys( nextProps.database.qualifiedLeads ).length !== 0  && nextProps.database.qualifiedLeads !== nextState.qualifiedLeads){
-            return {
-                qualifiedLeads : nextProps.database.qualifiedLeads
-            }
-        }
-        if( Object.keys( nextProps.database.contactedLeads ).length !== 0  && nextProps.database.contactedLeads !== nextState.contactLeads){
-            return {
+                newLeads : nextProps.database.newLeads,
+                qualifiedLeads : nextProps.database.qualifiedLeads,
                 contactLeads : nextProps.database.contactedLeads
             }
         }

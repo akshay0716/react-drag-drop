@@ -9,6 +9,7 @@ export const get_new_leads = () => async dispatch => {
             let allNewLeads = AllData.filter( ( data ) => ( data.state === 'New Leads' )   );
             let allContactedLeads = AllData.filter( data => (data.state === 'Contacted') );
             let allQualifiedLeads = AllData.filter( data => ( data.state === 'Qualified' ) );
+            console.log( allNewLeads );
             dispatch({
                 type : GET_NEW_LEADS,
                 payload : allNewLeads
@@ -31,7 +32,7 @@ export const get_the_data_changes = ( formData, id ) => async dispatch => {
     console.log("adsa");
     let data = await axios.patch(`http://localhost:3000/customer/${id}`, formData);
     if( data.data ){
-        console.log( data );
+        console.log( data.data );
         dispatch(get_new_leads())
     }
 }

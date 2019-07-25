@@ -4,31 +4,31 @@
       "id": 1,
       "fname": "Shubham",
       "lname": "Pratik",
-      "state": "Contacted"
+      "state": "New Leads"
     },
     {
       "id": 2,
       "fname": "John",
       "lname": "Jonas",
-      "state": "Contacted"
+      "state": "Qualified"
     },
     {
       "id": 3,
       "fname": "Clarie",
       "lname": "Krypton",
-      "state": "Qualified"
+      "state": "New Leads"
     },
     {
       "id": 4,
       "fname": "Kalile",
       "lname": "Krypton",
-      "state": "Contacted"
+      "state": "New Leads"
     },
     {
       "id": 5,
       "fname": "Mettallo",
       "lname": "Cadmus",
-      "state": "Qualified"
+      "state": "New Leads"
     },
     {
       "id": 6,
@@ -46,19 +46,19 @@
       "id": 8,
       "fname": "Win",
       "lname": "Venus",
-      "state": "Qualified"
+      "state": "Contacted"
     },
     {
       "id": 9,
       "fname": "Tom",
       "lname": "Cruise",
-      "state": "Qualified"
+      "state": "New Leads"
     },
     {
       "id": 10,
       "fname": "Roman",
       "lname": "Regins",
-      "state": "Qualified"
+      "state": "New Leads"
     }
   ]
 }
