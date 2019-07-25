@@ -1,0 +1,64 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "fname": "Shubham",
+      "lname": "Pratik",
+      "state": "Contacted"
+    },
+    {
+      "id": 2,
+      "fname": "John",
+      "lname": "Jonas",
+      "state": "Contacted"
+    },
+    {
+      "id": 3,
+      "fname": "Clarie",
+      "lname": "Krypton",
+      "state": "Qualified"
+    },
+    {
+      "id": 4,
+      "fname": "Kalile",
+      "lname": "Krypton",
+      "state": "Contacted"
+    },
+    {
+      "id": 5,
+      "fname": "Mettallo",
+      "lname": "Cadmus",
+      "state": "Qualified"
+    },
+    {
+      "id": 6,
+      "fname": "Alex",
+      "lname": "Deo",
+      "state": "Contacted"
+    },
+    {
+      "id": 7,
+      "fname": "Live",
+      "lname": "Wire",
+      "state": "Contacted"
+    },
+    {
+      "id": 8,
+      "fname": "Win",
+      "lname": "Venus",
+      "state": "Qualified"
+    },
+    {
+      "id": 9,
+      "fname": "Tom",
+      "lname": "Cruise",
+      "state": "Qualified"
+    },
+    {
+      "id": 10,
+      "fname": "Roman",
+      "lname": "Regins",
+      "state": "Qualified"
+    }
+  ]
+}

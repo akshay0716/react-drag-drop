@@ -1,0 +1,27 @@
+.mainConainer{
+    .heads{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: vw( 30px );
+
+        text-align: center;
+        width: 100%;
+        border:1px solid black;
+    }
+    .new_leads_container{
+        background: grey;
+        height: 500vh;
+        border:1px solid black;
+    }
+    .qualified_leads_container{
+        height: 100%;
+        border:1px solid black;
+    }
+    .contacted_leads_container{
+        height: 100%;
+        border:1px solid black;
+    }
+
+}
+.scasc{
+    margin: vw( 10px ) !important;
+}

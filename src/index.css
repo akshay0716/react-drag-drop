@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.mainConainer .heads {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: vw(30px);
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.mainConainer .new_leads_container {
+  background: grey;
+  height: 500vh;
+  border: 1px solid black;
 }
+
+.mainConainer .qualified_leads_container {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.mainConainer .contacted_leads_container {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.scasc {
+  margin: vw(10px) !important;
+}
+/*# sourceMappingURL=index.css.map */
